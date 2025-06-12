@@ -6,4 +6,4 @@
 
 # 0xCyberDump
 
-<li> [Networking](0xNetworking.html) </li>
+1. [Networking](0xNetworking.html)
