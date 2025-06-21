@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+    font-family: "JetBrains Mono", monospace;
+    background-color: #23153c;
+    font-weight: 300;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+h1, h2 {
+    margin: 10px auto;
+    font-family: "Pixelify Sans", sans-serif;
+    border: 3px solid #fff;
+    background-color: #ff3581;
+    display: inline-block;
+    padding-left: 8px; padding-right: 8px; padding-top: 4px; padding-bottom: 7px;
+    border-radius: 12px;
+    color: fff;
+}
+
+h3, h4, h5, h6 {
+    margin: 5px auto;
+    padding-left: 8px;
+    font-family: "Pixelify Sans", sans-serif;
+    display: inline-block;
+    color: #00ff29;
+}
+
+.dashed-line {
+    border: none; /* Remove default border */
+    border-top: 2px dashed #ff5381; /* Dashed line, 2px thick, black color */
+    margin: 20px 0; /* Optional: vertical spacing */
+}
+
+.network, .internet {
+    margin: 100px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+p {
+    margin: 10px auto;
+    padding-left: 10px;
+    line-height: 1.5em;
+}
+
+.network ul, .network ol {
+    margin-left: 2em;
+}
+
+.custom-list {
+    list-style: none; /* Removes default bullets */
+    padding-left: 0;  /* Optional: removes extra padding */
+}
+
+.custom-list li::before {
+    content: '>'; /* Unicode arrowhead */
+    font-weight: bold; /* Optional: make arrow thicker */
+    margin-right: 15px; /* Space between arrow and text */
+}
+
+.network img {
+    max-width: 50%;   /* Image will not exceed the width of its container */
+    height: auto;      /* Maintains aspect ratio */
+    display: block;    /* Removes unwanted gaps below image */
+    margin: 0px auto;
+}
+
+figure {
+    text-align: center;    /* Centers the image and caption */
+    margin: 20px auto;     /* Adds spacing around the figure */
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;    /* Optional: makes caption stand out */
+    color: #fff;           /* Caption color */
+    font-size: 0.7em;      /* Slightly smaller text */
+}
+
+mark {
+    background-color: #ff3581; /* Custom highlight color */
+    color: #fff;
+    padding: 0.1em 0.2em;          /* Optional: make the highlight look cleaner */
+    border-radius: 4px;        /* Optional: rounded corners */
+}
+
+#text-in-red {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
