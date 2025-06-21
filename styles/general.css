@@ -62,7 +62,7 @@ p {
     margin-right: 15px; /* Space between arrow and text */
 }
 
-.network img {
+img {
     max-width: 50%;   /* Image will not exceed the width of its container */
     height: auto;      /* Maintains aspect ratio */
     display: block;    /* Removes unwanted gaps below image */
