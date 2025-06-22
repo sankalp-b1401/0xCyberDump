@@ -2,4 +2,4 @@
 
 # 0xCyberDump
 
-1. # [NT{NETWORKING}](NT__networking-fundamentals.html)
+1. [NT{NETWORKING}](NT__networking-fundamentals.html)
