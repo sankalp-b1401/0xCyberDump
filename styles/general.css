@@ -3,40 +3,38 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 body {
+    margin: 5em 20em;
     font-family: "JetBrains Mono", monospace;
-    background-color: #23153c;
     font-weight: 300;
     font-size: 15px;
+    border: 2px dashed #00ff29;
+    border-radius: 15px;
     color: #ffffff;
+    background-color: #000000;
 }
 
-h1, h2 {
-    margin: 10px auto;
+h1, h2, h3, h4, h5, h6 {
     font-family: "Pixelify Sans", sans-serif;
-    border: 3px solid #fff;
-    background-color: #ff3581;
-    display: inline-block;
-    padding-left: 8px; padding-right: 8px; padding-top: 4px; padding-bottom: 7px;
-    border-radius: 12px;
-    color: fff;
-}
-
-h3, h4, h5, h6 {
-    margin: 5px auto;
-    padding-left: 8px;
-    font-family: "Pixelify Sans", sans-serif;
-    display: inline-block;
     color: #00ff29;
+}
+
+h1{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+h2, h3, h4, h5, h6 {
+    padding-left: 10px;
 }
 
 .dashed-line {
     border: none; /* Remove default border */
-    border-top: 2px dashed #ff5381; /* Dashed line, 2px thick, black color */
+    border-top: 2px dashed #00ff29; /* Dashed line, 2px thick, black color */
     margin: 20px 0; /* Optional: vertical spacing */
 }
 
 .network, .internet {
-    margin: 100px auto;
+    margin: 50px auto;
     max-width: 800px;
     padding: 0 20px;
 }
