@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 body {
-    margin: 5em 20em;
+    margin: 50px 50px;
     font-family: "JetBrains Mono", monospace;
     font-weight: 300;
     font-size: 15px;
@@ -35,7 +35,7 @@ h2, h3, h4, h5, h6 {
 
 .network, .internet {
     margin: 50px auto;
-    max-width: 800px;
+    max-width: fit-content;
     padding: 0 20px;
 }
 
@@ -47,17 +47,6 @@ p {
 
 .network ul, .network ol {
     margin-left: 2em;
-}
-
-.custom-list {
-    list-style: none; /* Removes default bullets */
-    padding-left: 0;  /* Optional: removes extra padding */
-}
-
-.custom-list li::before {
-    content: '>'; /* Unicode arrowhead */
-    font-weight: bold; /* Optional: make arrow thicker */
-    margin-right: 15px; /* Space between arrow and text */
 }
 
 img {
