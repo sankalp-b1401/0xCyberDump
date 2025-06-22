@@ -94,3 +94,11 @@ a {
     text-decoration: none;
 }
 
+#return, #rerturn::after {
+    color: #00ff29;
+    font-family: "Pixelify Sans", sans serif;
+    margin-left: 10px;
+}
+#return h3 {
+    display: inline-block;
+}
